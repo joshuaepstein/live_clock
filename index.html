@@ -29,19 +29,6 @@
             document.getElementById("hours").innerHTML = h;
         }
 
-        function test() {
-        
-            var d = new Date();
-            var h = d.getHours();
-            var m = d.getMinutes();
-            var s = d.getSeconds();
-
-            console.log(s);
-            if(s.toString.length == 1){
-                s = "0" + s;
-            }
-        }
-
         // When page loads
         window.onload = function() {
           time()
